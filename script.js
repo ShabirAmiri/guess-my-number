@@ -27,7 +27,7 @@ document.querySelector('.check').addEventListener('click', function () {
   }
   // when guess is not equal to secret number.
   else if (guess != randomNum) {
-    if (score > 1) {
+    if (score > 0) {
       displayMessage(guess > randomNum ? 'too high' : 'too low');
       score--;
       document.querySelector('.score').textContent = score;
