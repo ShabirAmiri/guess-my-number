@@ -23,6 +23,7 @@ header {
   position: relative;
   height: 35vh;
   border-bottom: 7px solid #eee;
+  /* width: 100%; */
 }
 
 main {
@@ -125,4 +126,24 @@ h1 {
 
 .label-score {
   margin-bottom: 2rem;
+}
+@media screen and (max-width: 500px) {
+  .message {
+    margin-bottom: 2px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .right {
+    text-align: center;
+    margin-top: -115px;
+    width: 100%;
+  }
+  .left {
+    width: 100%;
+  }
+  header {
+    width: 100%;
+  }
 }
