@@ -147,3 +147,53 @@ h1 {
     width: 100%;
   }
 }
+@media screen and (max-width: 300px) {
+  .again {
+    width: 30px;
+    height: 10px;
+    font-size: 8px;
+    text-align: center;
+    margin-top: -10px;
+    margin-left: -10px;
+  }
+  .number {
+    width: 50px;
+    height: 40px;
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 15px;
+  }
+  header {
+    border-width: 3px;
+  }
+  .guess {
+    width: 100px;
+    height: 50px;
+    margin-right: 170px;
+  }
+  .check {
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    margin-right: 170px;
+    margin-top: -20px;
+  }
+  .right {
+    margin-left: 100px;
+    font-size: 15px;
+  }
+  .left {
+    margin-top: 30px;
+  }
+  .check-txt {
+    font-size: 15px;
+    margin-left: -20px;
+    margin-bottom: 20px;
+  }
+  .again-txt {
+    font-size: 15px;
+    margin-left: -20px;
+    margin-bottom: 20px;
+  }
+}
