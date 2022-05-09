@@ -147,7 +147,7 @@ h1 {
     width: 100%;
   }
 }
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 450px) {
   .again {
     width: 30px;
     height: 10px;
