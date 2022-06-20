@@ -40,6 +40,7 @@ document.querySelector('.check').addEventListener('click', function () {
   //again button.
   document.querySelector('.again').addEventListener('click', function () {
     score = 20;
+    let randomNum = Math.trunc(Math.random() * 20) + 1;
     document.querySelector('.number').value = randomNum;
     displayMessage('Start guessing...');
     document.querySelector('.score').textContent = score;
